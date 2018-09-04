@@ -14,7 +14,7 @@ helm repo add tamtam-collection https://raw.githubusercontent.com/tamtam0/helm-c
 
 
 ```bash
-helm install --namespace "airflow" --name "airflow" incubator/airflow
+helm install --namespace "airflow" --name "airflow" tamtam-collection/airflow
 ```
 
 After installation succeeds, you can get a status of Chart
