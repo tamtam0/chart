@@ -1,3 +1,23 @@
 apiVersion: v1
-entries: {}
-generated: 2018-09-03T19:35:56.025169405-07:00
+entries:
+  airflow:
+  - appVersion: 1.9.0
+    created: 2018-09-03T20:02:08.280544454-07:00
+    description: Airflow is a platform to programmatically author, schedule and monitor
+      workflows
+    digest: 5510d92043c6ffdc1c18f969c4843b449ece42d3baf47126cd282dae39e74d45
+    home: https://airflow.apache.org/
+    icon: https://airflow.apache.org/_images/pin_large.png
+    keywords:
+    - workflow
+    - dag
+    maintainers:
+    - email: gaetan@xeberon.net
+      name: gsemet
+    name: airflow
+    sources:
+    - https://airflow.apache.org/
+    urls:
+    - airflow-0.7.1.tgz
+    version: 0.7.1
+generated: 2018-09-03T20:02:08.278215422-07:00
